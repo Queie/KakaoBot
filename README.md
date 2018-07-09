@@ -5,3 +5,12 @@
   <figcaption>WeWork 서울스퀘어점</figcaption>
 </figure>
 
+
+## Git 이전버젼 되돌리기
+
+```
+$ git clone [remote_address_here]
+$ cd KakaoBot
+# git reset --hard [ENTER HERE THE COMMIT HASH YOU WANT]
+```
+
