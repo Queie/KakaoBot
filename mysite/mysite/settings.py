@@ -25,8 +25,8 @@ SECRET_KEY = '9+=0caapa%2ei#o4@ib(40j0^rj$8js)0tr2o7=p#rp+3d1&_i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'erdos.pythonanywhere.com']
-
+# ALLOWED_HOSTS = [u'erdos.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -55,7 +55,8 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
+        # 'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,11 +118,10 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = '/static/'
 
 # default static files settings for PythonAnywhere.
 # see https://help.pythonanywhere.com/pages/DjangoStaticFiles for more info
-MEDIA_ROOT = u'/home/erdos/mysite/media'
 MEDIA_URL = '/media/'
-STATIC_ROOT = u'/home/erdos/mysite/static'
+MEDIA_ROOT = u'/home/erdos/mysite/media'
 STATIC_URL = '/static/'
+STATIC_ROOT = u'/home/erdos/mysite/static'
