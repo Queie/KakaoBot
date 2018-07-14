@@ -1,6 +1,6 @@
 # Django로 구현하는 Kakao ChatBot
 
-[**Kakao 챗봇 GitHub**](https://github.com/plusfriend/auto_reply#specification)
+[**카카오톡 플러스친구 API v. 2.0 개요**](https://github.com/plusfriend/auto_reply)
 
 <figure class="align-center">
   <img src="http://scnews.co.kr/PEG/15286157107300.jpg">
