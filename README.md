@@ -61,5 +61,5 @@ $ git reset --hard [ENTER HERE THE COMMIT HASH YOU WANT]
 
 ## envirment
 
-1. 구글 드라이브 colab 으로 Jupyter Notebook 실습하기
+1. <strike>구글 드라이브 colab 으로 Jupyter Notebook 실습하기</strike> Jupyter 와 다른점들이 많아서 추후에 활용
 2. Python Anywhere 로 서버 작동하기
