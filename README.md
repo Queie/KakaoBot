@@ -1,7 +1,6 @@
 # Django로 구현하는 Kakao ChatBot
 
-[**Kakao 챗봇 GitHub**](https://github.com/plusfriend/auto_reply#specification)<br>
-
+[**Kakao 챗봇 GitHub**](https://github.com/plusfriend/auto_reply#specification)
 
 <figure class="align-center">
   <img src="http://scnews.co.kr/PEG/15286157107300.jpg">
@@ -18,13 +17,10 @@ $ git reset --hard [ENTER HERE THE COMMIT HASH YOU WANT]
 ```
 
 
-<br>
 # 수업내용 
 
-<br>
 ## Django를 활용하여 Kakao Bot을 응용하는 내용을 학습합니다
 
-<br>
 ### 시작을 위한 설정
 
 1. Python AnyWhere 등록하기 
@@ -32,7 +28,7 @@ $ git reset --hard [ENTER HERE THE COMMIT HASH YOU WANT]
 3. KaKao 프랜드 관리 등록및 설정하기
 4. Ms Emotion API 키값 등록하기
 
-<br>
+
 ### Web 기본개념 
 1. input 과 output
 2. request 와 response
@@ -40,7 +36,7 @@ $ git reset --hard [ENTER HERE THE COMMIT HASH YOU WANT]
 4. MTV 로 Project 와 App 이해하기
 5. Web server 이해하기
 
-<br>
+
 ### Kakao bot 의 API 이해하기
 1. { dict } 구조 이해하기
 2. { Json } 구조 이해하기
@@ -62,7 +58,7 @@ $ git reset --hard [ENTER HERE THE COMMIT HASH YOU WANT]
 ### KaKao Bot Image 입력 MS API 연결하기
 외부에서 제공하는 서비스 API 연결하기 실습
 
-<br>
+
 ## envirment
 
 1. 구글 드라이브 colab 으로 Jupyter Notebook 실습하기
